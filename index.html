@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dictionary App</title>
+</head>
+<body>
+
+    <header>
+      <div class="nav-bar">
+        <h1>
+          <img id="icon" src="images.png" alt="icon">
+            English Dictionary
+          <button id="historyBtn">History</button>
+        </h1>
+      </div> 
+    </header>
+    
+    <main id="mainContent">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter a word">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="wordCardsContainer"></div>
+    </main>
+
+    <div id="historyPage" class="hidden">
+        <h2>Search History</h2>
+        <button id="backToSearchBtn">Back to Search</button>
+        <button id="clearHistoryBtn">Clear History</button>
+        <div id="historyCardsContainer"></div>
+    </div>
+
+    <footer>
+      <p> &copy; CoderSneha 2023</p>
+    </footer>
+    
+  <script src="script.js"></script>
+</body>
+</html>
